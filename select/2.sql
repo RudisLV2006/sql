@@ -4,10 +4,17 @@
 -- papilduzdevums: atlasīt papildus kolonu
 -- ir 
 
+use sql_store;
+
+
 SELECT 
 	DISTINCT state
 FROM
 	sql_store.customers;
+
+
+select * from customers
+limit 5;
 
 SELECT 
 	first_name,
