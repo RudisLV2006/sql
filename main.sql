@@ -3,4 +3,10 @@
 
 use sql_store;
 
-select * from customers;
+select first_name from customers;
+
+-- new select
+select * from shippers;
+
+
+select address from sql_hr.offices;
